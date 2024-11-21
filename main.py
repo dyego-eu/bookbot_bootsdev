@@ -53,6 +53,7 @@ def count_characters(book: str) -> dict[str, int]:
             key=lambda item: item[1],
             reverse=True,
         )
+        if key.isalpha()
     }
 
 
